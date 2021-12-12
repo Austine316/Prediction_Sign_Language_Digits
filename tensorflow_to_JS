@@ -1,0 +1,3 @@
+tensorflowjs_converter --input_format=keras /home/user/AI_HandSign_Number/model/sign_lang_model.h5 /home/user/AI_HandSign_Number/model
+
+sudo npm install -g firebase-tools to install firebase on terminal
