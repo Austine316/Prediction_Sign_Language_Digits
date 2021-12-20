@@ -1,17 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hand sign</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en" class="h-100">
 
-	<h1>Welcome to model deployment</h1>
+    <head>
 
-	
-	<form action="prediction" method="POST" enctype="multipart/form-data">
-		<input type="file" name="img">
-		<input type="submit" name="btn">
-	</form>
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Hand Sign Prediction</title>
 
-</body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body class="h-100">
+    
+    	
+    	<div class="container h-100">
+            <div class="row h-50 justify-content-center align-items-center">
+                <div class="col-10 col-md-8 col-lg-6">
+					<!-- Form -->
+                	<form class="form-example" action="prediction" method="POST" enctype="multipart/form-data">
+                		<h3 class="mb-5">Welcome to model deployment</h3>
+                		<!-- Input fields -->
+                		<div class="form-group">
+                			<label for="username">Upload hand Sign Image:</label>
+                			<input type="file" class="form-control-file" id="exampleFormControlFile1" name="img">
+                		</div>
+
+						<button type="submit" class="btn btn-primary btn-customized">Predict</button>
+                		<!-- End input fields -->
+                		
+                	</form>
+					<!-- Form end -->
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
 </html>
+
+
+
+
