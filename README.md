@@ -2,7 +2,7 @@
 
 Sign language digits model predicts a number (0 to 9) based on a hand sign. 
 
-This project was completed during my Deep Learning Specializtion course by Andrew Ng. See [demo](https://vimeo.com/658560724/ffce847559)
+This project was completed during my Deep Learning Specializtion course by Andrew Ng. See [demo](https://vimeo.com/658572740/5d2859c486)
 
 ![Screenshot from 2021-12-20 11-13-14](https://user-images.githubusercontent.com/77448406/146751419-c1b205f4-726c-4aa7-9ad6-5d0f852ade85.png)
 
